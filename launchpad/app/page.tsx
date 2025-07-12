@@ -1,7 +1,6 @@
 "use client";
-import TokenLaunchpad from "@/components/TokenLaunchpad";
-import { ConnectionProvider, WalletProvider, } from "@solana/wallet-adapter-react";
-import { WalletModalProvider, WalletMultiButton, WalletDisconnectButton, } from "@solana/wallet-adapter-react-ui";
+import TokenLaunchpad from "@/components/TokenCreator";
+import { WalletMultiButton, WalletDisconnectButton, } from "@solana/wallet-adapter-react-ui";
 import "@solana/wallet-adapter-react-ui/styles.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

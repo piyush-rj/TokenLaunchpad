@@ -1,6 +1,6 @@
 "use client"
 
-import TokenLaunchpad from "./TokenLaunchpad";
+import TokenLaunchpad from "./TokenCreator";
 
 export default function TokenLaunchpadMain() {
     return (
